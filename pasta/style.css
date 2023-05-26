@@ -1,0 +1,202 @@
+/*fontes local importada*/
+@font-face {
+  font-family: brushstrike;
+  src: local(brushstrike), url(".\fontes\brushstrike\Brushstrike trial.ttf")
+}
+
+@font-face {
+  font-family: Madrid Vandals;
+  src: local(Madrid Vandals), url(".\fontes\madrid_vandals\Madrid Vandals.ttf")
+}
+
+@font-face {
+  font-family: Polo;
+  src: local(Polo), url(".\fontes\polo\Polo.otf")
+}
+
+/*codigo de referecia
+@font-face {
+  font-family: Barrio;
+  src: url(../fonts/Barrio-Regular.ttf)
+}
+
+h1 {
+  font-family: Barrio;
+}
+*/
+
+body {
+ background-image:url("https://i.pinimg.com/564x/98/f3/fd/98f3fd9d1cfd29b04333ffbc10ae71f3.jpg");
+ color: #333;
+ margin: 0 auto;
+ padding: 0;
+ width:90%;
+ min-width:600px;
+ max-width:2000px
+}
+
+header {
+ color: #fff;
+ padding: 22px;
+}
+
+h1 {
+ font-family: 'Madrid Vandals', sans-serif; 
+ margin: 0;
+ text-align: center;
+ font-size: 400%;
+} 
+
+h2 {
+  font-family: 'BRUSHSTRIKE', sans-serif;
+  margin: 0;
+  text-align: center;
+} 
+p{
+ background-color:black;
+}
+
+time{
+  font-family: arial, helvetica, sans-serif; 
+}
+
+/*img index*/
+
+#img-jojo{
+  width: 150px;
+  float: right;
+  margin: 0 250px 10px 0;
+}
+
+#logo-atifa{
+  width: 150px;
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+/*img obj*/
+#luta{
+  width: 300px;
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+#mulheres{
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin: 0 20px 10px 0;
+}
+#mutidao{
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+  width: 600px;
+  max-width: 600px;
+  max-height: 400xp;
+}
+#flag{
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  width: 600px;
+  max-width: 500px;
+  max-height: 400xp;
+}
+
+/*img fascismo*/
+#fascismo_flag{
+  width: 150px;
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+#Mussolini_face{
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  width: 600px;
+  max-width: 500px;
+  max-height: 400xp;
+}
+
+#Mussolini_arm{
+  display: block;
+  margin: 0 auto;
+  height: 250px;
+  width: 500px;
+  max-width: 600px;
+  max-height: 400xp;
+}
+
+#sem_fala{
+  height: 250px;
+  width: 250px;
+  float: right;
+  margin: 0 10px 10px 0;
+}
+
+nav ul {
+ display: flex;
+ justify-content: center;
+ list-style: none;
+ margin: 0;
+ padding: 10;
+ background-color: #808080;
+}
+
+nav li {
+ display: inline-block;
+ margin-right: 50px;
+ 
+}
+
+nav a {
+ font-family: 'BRUSHSTRIKE', sans-serif;
+ color: #fff;
+ text-decoration: none;
+ padding: 6px 10px;
+ margin-right: 2px;
+ font-size: 150%;
+}
+
+nav a:hover {
+ text-decoration: underline;
+ color: black;
+ background: #fff;
+ border: 1px solid #808080;
+}
+
+main {
+ margin: 10px;
+}
+
+article {
+ font-family: 'Polo', sans-serif;
+ box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+ margin-bottom: 30px;
+ padding: 10px;
+ color: #fff;
+ font-size: 150%;
+ line-height: 1;
+}
+
+article h2 {
+ margin: 0;
+}
+
+article p {
+ margin: 10px 0;
+}
+
+time {
+ color: #999;
+ font-style: italic;
+}
+
+footer {
+ background-color: #333;
+ color: #fff;
+ padding: 10px;
+ text-align: center;
+}
