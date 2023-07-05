@@ -12,7 +12,7 @@ $neongreen: #74ee15;
     height: 100%; /* Define o tamanho do Documento HTML */
 }
 body {
-  background: #0000ff; /* Cor do fundo do corpo */
+  background: #0000; /* Cor do fundo do corpo */
   box-sizing: border-box;
   font-family: "Verdana";
   height: 100%;
