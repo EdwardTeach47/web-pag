@@ -8,11 +8,11 @@ $neonyellow: #ffe700;
 $neongreen: #74ee15;
   /* Add styles for the body */
  html {
-    background: #0000; /* Cor do fundo do documento */
+    background: #000000; /* Cor do fundo do documento */
     height: 100%; /* Define o tamanho do Documento HTML */
 }
 body {
-  background: #0000; /* Cor do fundo do corpo */
+  background: #000000; /* Cor do fundo do corpo */
   box-sizing: border-box;
   font-family: "Verdana";
   height: 100%;
