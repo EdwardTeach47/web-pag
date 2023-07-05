@@ -4,11 +4,12 @@
     font-family: Calibri;
     margin: 0;
     padding: 0;
+    background-color: blue;
   }
 
   /* Add styles for the header */
   header {
-    background-color: lightblue;
+    background-color: black;
     padding: 0.2px;
     font-family: Book Antiqua;
     
