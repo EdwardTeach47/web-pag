@@ -12,7 +12,7 @@ $neongreen: #74ee15;
     height: 100%; /* Define o tamanho do Documento HTML */
 }
 body {
-  background: #e3e3e3; /* Cor do fundo do corpo */
+  background: #0000ff; /* Cor do fundo do corpo */
   box-sizing: border-box;
   font-family: "Verdana";
   height: 100%;
@@ -23,7 +23,7 @@ body {
 
   /* Add styles for the header */
   header {
-    background-color: black;
+    background-color: #ffff;
     padding: 0.2px;
     font-family: Book Antiqua;
     
