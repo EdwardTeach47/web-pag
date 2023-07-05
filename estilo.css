@@ -83,12 +83,10 @@ h2 {
 	text-shadow: 0 0 0.5em $neonlightblue, 0 0 1em white;
 	padding: 1em 0 0.5em 0;
 img {
-  object-fit: contain;
-	width: 100%;
-  max-width: 400px;
-	height: auto;
-	border-radius: 0 0.5em 0.5em 0;
-	box-shadow: -0.5em 0.5em 0 $neongreen;
+  	height: 100%;
+  	margin: 0 auto; /* Centraliza */
+  	padding: 8px;
+  	width: 80%;
 	}
 p {
 	font-family: "Open Sans", sans-serif;
