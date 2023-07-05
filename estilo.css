@@ -8,7 +8,7 @@ $neonyellow: #ffe700;
 $neongreen: #74ee15;
   /* Add styles for the body */
  html {
-    background: #fff; /* Cor do fundo do documento */
+    background: #0000; /* Cor do fundo do documento */
     height: 100%; /* Define o tamanho do Documento HTML */
 }
 body {
