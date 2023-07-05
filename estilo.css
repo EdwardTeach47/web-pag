@@ -13,13 +13,12 @@ $neongreen: #74ee15;
 }
 body {
   background: #e3e3e3; /* Cor do fundo do corpo */
-  border: 2px solid #069;
   box-sizing: border-box;
   font-family: "Verdana";
   height: 100%;
   margin: 0 auto; /* Centraliza */
   padding: 8px;
-  width: 60%; /* Define a largura do Corpo do Documento */
+  width: 80%; /* Define a largura do Corpo do Documento */
 }
 
   /* Add styles for the header */
