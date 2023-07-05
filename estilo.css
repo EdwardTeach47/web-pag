@@ -2,10 +2,10 @@
   /* Add styles for the body */
   body {
     width: 100%;
-	  height: 100%;
-	  background-color: #101b37;
-	  display: grid;
-	  place-items: center;
+    height: 100%;
+    background-color: #101b37;
+    display: grid;
+    place-items: center;
   }
 
   /* Add styles for the header */
