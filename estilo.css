@@ -23,9 +23,10 @@ body {
 
   /* Add styles for the header */
   header {
-    background-color: #ffff;
+    background-color: #000000;
     padding: 0.2px;
     font-family: Book Antiqua;
+    height: 100%;
     
   }
 
@@ -62,35 +63,37 @@ body {
     font-family: Arial;
     font-size: 15px;
   }
+    
   #depois-games {
     text-align: left:
     font-size: 30px;
   }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: "Audiowide", sans-serif;
-	letter-spacing: 0.1em;
-	font-color: #FFFFFF;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Audiowide", sans-serif;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
 }
-h2 {
-	color: white;
-	text-shadow: 0 0 0.5em $neonlightblue, 0 0 1em white;
-	padding: 1em 0 0.5em 0;
-img {
-  	height: 100%;
-  	margin: 0 auto; /* Centraliza */
-  	padding: 8px;
-  	width: 80%;
-	}
-p {
-	font-family: "Open Sans", sans-serif;
-	line-height: 2em;
-	padding: 0.5em 0;
-	font-color: #FFFFFF;
-}
+    h2 {
+        color: white;
+        text-shadow: 0 0 0.5em $neonlightblue, 0 0 1em white;
+        padding: 1em 0 0.5em 0;}
+
+    img {
+        height: 80%;
+        margin: 0 auto; /* Centraliza */
+        padding: 8px;
+        width: 80%;
+        }
+    p {
+        font-family: "Open Sans", sans-serif;
+        line-height: 2em;
+        padding: 0.5em 0;
+        color: #FFFFFF;
+    }
   
 </style>
