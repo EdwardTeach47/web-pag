@@ -106,9 +106,10 @@ body {
         padding: 0.5em 0;
         color: #FFFFFF;
     }
-  video{
+  source{
         display: flex;
         justify-content: center;
+        align-items: center;
   }
   
 </style>
