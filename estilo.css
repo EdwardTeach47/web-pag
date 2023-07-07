@@ -12,6 +12,11 @@ html {
    height: 100%; /* Define o tamanho do Documento HTML */
 }
 body {
+  background: #000000; /* Cor do fundo do documento */
+  height: 100%; /* Define a largura do Corpo do Documento */
+  background-image:url("./img-games/fundo.jpg");
+}
+#corpo{
   background: #000000; /* Cor do fundo do corpo */
   box-sizing: border-box;
   font-family: "Verdana";
@@ -63,6 +68,7 @@ body {
     text-align: center;
     font-family: Arial;
     font-size: 15px;
+    height: 100%;
     width: 100%;
   }
 }
