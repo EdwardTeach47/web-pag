@@ -107,7 +107,8 @@ body {
         color: #FFFFFF;
     }
   video{
-        display: center;
+        display: flex;
+        justify-content: center;
   }
   
 </style>
