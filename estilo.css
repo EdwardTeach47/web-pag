@@ -17,7 +17,6 @@ body {
   background-image:url("./logos-img/logos-img.png");
 }
 #corpo{
-  background: #000000; /* Cor do fundo do corpo */
   box-sizing: border-box;
   font-family: "Verdana";
   height: 100%;
