@@ -14,7 +14,7 @@ html {
 body {
   background: #000000; /* Cor do fundo do documento */
   height: 100%; /* Define a largura do Corpo do Documento */
-  background-image:url("./img-xbox/xbox-fundo.png");
+  background-image:url("./logos-img/logos-img.png");
 }
 #corpo{
   background: #000000; /* Cor do fundo do corpo */
