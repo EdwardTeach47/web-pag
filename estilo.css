@@ -23,6 +23,7 @@ body {
   margin: 0 auto; /* Centraliza */
   padding: 8px;
   width: 80%; /* Define a largura do Corpo do Documento */
+  background: #000000; /* Cor do fundo do documento */
 }
 
   /* Add styles for the header */
