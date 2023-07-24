@@ -1,26 +1,36 @@
 <!DOCTYPE html>
+<script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "10px 10px";
+        document.getElementById("logo").style.fontSize = "30px";
+      } else {
+        document.getElementById("navbar").style.padding = "40px 10px";
+        document.getElementById("logo").style.fontSize = "35px";
+      }
+    }
+    </script>
 <html lang="pt">
 <head>
     <meta charset="utf-8" />
   	<link rel="stylesheet" type="text/css" href="estilo.css">
-    <title>Teach News</title>
+    <title>Tortuga News: A Voz dos Piratas</title>
 </head>
 <body>
-    
-    <header>
-      <h1 id="titulo">Teach News</h1>
-    </header>
+    <div id="navbar">
+        <a href="./home.html" id="logo">Tortuga News: A Voz dos Piratas</a>
+        <div id="navbar-right">
+            <a href="./playstation.html">playstation</a>
+            <a href="./xbox.html">xbox</a>
+            <a href="./nitendo.html">nitendo</a>
+            <a href="./youtubelinks\youtube-index.html"> youtube-links </a>
+        </div>
+      </div>
     <main>
-      <nav>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./playstation.html">playstation</a></li>
-            <li><a href="./xbox.html">xbox</a></li>
-            <li><a href="./nitendo.html">nitendo</a></li>
-            <li><a href="./youtubelinks\youtube-index.html"> youtube-links </a></li>
-        </ul>
-      </nav>
-        <main id="corpo">
+        <main id="corpo"><br><br><br><br><br><br><br>
             <h1 align="center">lançamentos</h1>
             <div>
                 <h2>Dead Space</h2>
