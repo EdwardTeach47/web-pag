@@ -1,1 +1,64 @@
-fnhf
+<!DOCTYPE html>
+<script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "10px 10px";
+        document.getElementById("logo").style.fontSize = "30px";
+      } else {
+        document.getElementById("navbar").style.padding = "40px 10px";
+        document.getElementById("logo").style.fontSize = "35px";
+      }
+    }
+    </script>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+  	<link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Tortuga News: A Voz dos Piratas</title>
+</head>
+<body>
+    <div id="navbar">
+        <a href="./home.html" id="logo">Tortuga News: A Voz dos Piratas</a>
+        <div id="navbar-right">
+            <a href="./playstation.html">playstation</a>
+            <a href="./xbox.html">xbox</a>
+            <a href="./nitendo.html">nitendo</a>
+            <a href="./youtubelinks\youtube-index.html"> youtube-links </a>
+        </div>
+      </div>
+    <main>
+        <main id="corpo"><br><br><br><br><br><br><br>
+            <h1 align="center">Xbox Game Pass: como liberar os Agentes de Valorant de graça</h1>
+            <div>
+                <img src="./img-games/The_Elder_Scrolls.jpg"><br>
+                <P>Um dos jogos de tiro tático mais populares da atualidade, Valorant conquistou os jogadores com sua jogabilidade fluida, trama interessante e personagens cativantes. Cada Agente do jogo tem sua própria história, habilidades, vantagens e desvantagens, mas nem todos eles estão disponíveis de cara para os jogadores. A menos, é claro, que você seja assinante do Xbox Game Pass.</P>
+            </div>
+          <div>
+            <h2>Mais detalhes sobre The Elder Scrolls Online</h2>
+            <ṕ>Desenvolvido pela ZeniMax Media e distribuído pela Bethesda, The Elder Scrolls Online foi lançado em 2014 para PS4, Xbox One e PC — mas também conta com versões de PS5 e Xbox Series X|S. O MMORPG possui uma comunidade com mais de 22 milhões de jogadores atualmente. Confira o trailer:</ṕ>
+            <video width="640" height="480" controls>
+              <source src="./videos/The Elder Scrolls Online_ trailer de lançamento da Versão Melhorada para Consoles.mp4" type="video/mp4">
+            </video><br>
+              <p>Além de explorar o vasto universo de Tamriel, reino onde o game é ambientado, você poderá criar personagens com diferentes classes e raças, completar uma grande variedade de missões e dungeons, participar de batalhas PvP em larga escala e muito mais. O título é um prato cheio para os entusiastas do gênero.</p>
+              <H2>The Elder Scrolls Online pode ter crossover com Fortnite em breve</H2>
+              <p>Há diversas especulações nas redes sugerindo que a Epic Games estaria preparando um crossover entre The Elder Scrolls Online e Fortnite.
+
+Segundo o perfil "iannzits", essa parceria pode rolar na mesma data que o MMORPG ficará gratuito na plataforma. "Um Traje, uma Picareta e um Envelopamento relacionados" podem chegar à loja do battle royale na ocasião. Os preços em V-Bucks, no entanto, não foram especificados.<br>
+              Vale mencionar que a parceria ainda não foi oficializada. Portanto, trate essa informação com cautela até a confirmação da Epic Games.</p>
+
+          </div>
+        </main>
+       
+      <p> 
+      https://htmlpreview.github.io/?https://github.com/rodrigoxal/ProfXavierWeb/blob/main/index.html <br>
+      </p>
+    </main>
+     
+    <footer>
+      Copyright © 2023 antifa
+    </footer>
+</body>
+</html>
