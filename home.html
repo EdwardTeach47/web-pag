@@ -13,10 +13,21 @@
       }
     }
     </script>
+
+  <script>
+    function alternarTema() {
+      var tema = document.getElementById("tema");
+      if (tema.getAttribute("href") == "home.css") {
+        tema.setAttribute("href", "home-preto.css");
+      } else {
+        tema.setAttribute("href", "home.css");
+      }
+    }
+  </script>
 <html lang="pt">
 <head>
     <meta charset="utf-8" />
-  	<link rel="stylesheet" type="text/css" href="home.css">
+  	<link id="tema" rel="stylesheet" type="text/css" href="home.css">
     <title>Tortuga News: A Voz dos Piratas</title>
     <link rel="icon" type="image/x-icon" href="./logos-img/logo.ico">
   </head>
@@ -29,6 +40,7 @@
             <a href="./xbox.html">xbox</a>
             <a href="./nitendo.html">nitendo</a>
             <a href="./AGRADECIMENTOS.html"> AGRADECIMENTOS </a>
+            <a><button onclick="alternarTema()">Alternar tema</button></a>
         </div>
       </div>
     <main>
