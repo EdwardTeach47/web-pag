@@ -13,17 +13,6 @@
       }
     }
     </script>
-
-  <script>
-    function alternarTema() {
-      var tema = document.getElementById("tema");
-      if (tema.getAttribute("href") == "home.css") {
-        tema.setAttribute("href", "home-preto.css");
-      } else {
-        tema.setAttribute("href", "home.css");
-      }
-    }
-  </script>
 <html lang="pt">
 <head>
     <meta charset="utf-8" />
@@ -40,7 +29,7 @@
             <a href="./xbox.html">xbox</a>
             <a href="./nitendo.html">nitendo</a>
             <a href="./AGRADECIMENTOS.html"> AGRADECIMENTOS </a>
-            <a><button onclick="alternarTema()">Alternar tema</button></a>
+            <a><button class="button">Click me!</button></a>
         </div>
       </div>
     <main>
@@ -92,24 +81,6 @@
       https://htmlpreview.github.io/?https://github.com/rodrigoxal/ProfXavierWeb/blob/main/index.html <br>
       </p>
     </main>
-     <style>
-  .button {
-    background-image: url('background_image.jpg');
-    background-size: cover;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  .button:hover {
-    background-color: #002ead;
-  }
-</style>
-
-<button class="button">Click me!</button>
     <footer>
       Copyright ©Tortuga News: A Voz dos Piratas 2023 
     </footer>
