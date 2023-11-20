@@ -126,7 +126,7 @@ body {
   }
 
 .button {
-    background-image: url('background_image.jpg');
+    background-image: url('./logos-img/logos2-img.png');
     background-size: cover;
     color: white;
     border: none;
