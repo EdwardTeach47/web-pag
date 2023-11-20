@@ -124,6 +124,22 @@ body {
         justify-content: center;
         align-items: center;
   }
+
+.button {
+    background-image: url('background_image.jpg');
+    background-size: cover;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #002ead;
+  }
+
   * {box-sizing: border-box}
   body {font-family: Verdana, sans-serif; margin:0}
   .mySlides {display: none}
